@@ -17,10 +17,10 @@ const Signup =(prop)=>{
     useEffect(
         ()=>{
             if(success === true || error === true)
-            {setu("")
-            setp("")
-                
-        }
+            {
+                setu("")
+                setp("")      
+            }
         },[success,error]
     )
     console.log(prop.user[0])
